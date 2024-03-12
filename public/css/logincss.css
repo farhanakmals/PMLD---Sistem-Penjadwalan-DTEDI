@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter';
+}
+
+.navbar {
+    background-color: #F9F9F9;
+}
+
+.loginnav {
+    background-color: #007BFF;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #F9F9F9;
+    height: 100;
+}
+
+.middle{
+    margin: auto;
+}
+
+.loginatas {
+    background-color: #007BFF;
+    color: #F9F9F9;
+}
+
+.loginbawah {
+    background-color: #F9F9F9;
+}
+
+.logougm {
+    height: 90px;
+}
+
+.loginbtn {
+    background-color: #F4AB43;
+    color: #F9F9F9;
+}
+
+.ugmacid {
+    background-color: #007BFF;
+    color: #F9F9F9;
+}
+
