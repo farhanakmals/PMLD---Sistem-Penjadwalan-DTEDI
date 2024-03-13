@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::resource('kurikulum', KurikulumController::class);
+Route::get('/test', [TestController::class, 'show']);
+Route::get('/testPlotting', [TestController::class, 'plotting']);
