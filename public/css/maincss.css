@@ -34,7 +34,7 @@ ul.topnav li.right {
 
 ul.topnav li a.dosenright {
     display: block;
-    color: black;
+    color: #444444;
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
@@ -56,11 +56,15 @@ ul.topnav li a.dosenright {
     padding-right: 25px;
 }
 
-.table-bordered{
-    border: #868686;
-
+thead th {
+    background-color: #007BFF  !important;
+    color: #F9F9F9  !important;
 }
 
-.table{
-    margin: auto;
+tbody td {
+    background-color: #F9F9F9 !important;
+}
+
+.textcolor {
+    color: #444444;
 }
