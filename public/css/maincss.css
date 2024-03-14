@@ -49,3 +49,18 @@ ul.topnav li a.dosenright {
 .fa-circle {
     color: #007BFF;
 }
+
+.btndownload{
+    background-color: #F4AB43;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.table-bordered{
+    border: #868686;
+
+}
+
+.table{
+    margin: auto;
+}
