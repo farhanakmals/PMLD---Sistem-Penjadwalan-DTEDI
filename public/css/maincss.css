@@ -1,3 +1,51 @@
 body {
     font-family: 'Inter';
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9F9F9;
+}
+  
+ul.topnav li {
+    float: left;
+}
+  
+ul.topnav li a.active {
+    display: block;
+    color: #F9F9F9;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+ul.topnav li.right {
+    float: right;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+ul.topnav li a.dosenright {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    background-color: #F9F9F9;
+}
+  
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+.fa-circle {
+    color: #007BFF;
 }

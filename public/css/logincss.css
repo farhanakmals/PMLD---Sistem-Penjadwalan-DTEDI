@@ -1,19 +1,44 @@
 body {
     font-family: 'Inter';
+    margin: 0;
+    background-image: url("/img/balairung.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
-.navbar {
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #F9F9F9;
 }
-
-.loginnav {
-    background-color: #007BFF;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  
+ul.topnav li {
+    float: left;
+}
+  
+ul.topnav li a {
+    display: block;
     color: #F9F9F9;
-    height: 100;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+  
+ul.topnav li a.active {
+    background-color: #007BFF;
+}
+  
+ul.topnav li.right {
+    float: right;
+}
+  
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {
+        float: none;
+    }
 }
 
 .middle{
@@ -25,18 +50,25 @@ body {
     color: #F9F9F9;
 }
 
-.loginbawah {
-    background-color: #F9F9F9;
+.btnloginsso {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: #F9F9F9;
+    padding:10px 20px;
+}
+
+.iconuser {
+    color: #F9F9F9;
 }
 
 .logougm {
     height: 90px;
 }
 
-.loginbtn {
+/* .loginbtn {
     background-color: #F4AB43;
     color: #F9F9F9;
-}
+} */
 
 .ugmacid {
     background-color: #007BFF;

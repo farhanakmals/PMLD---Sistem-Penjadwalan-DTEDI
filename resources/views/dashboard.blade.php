@@ -1,3 +1,7 @@
-@extends('layout/layoutmain')
+@extends('layoutmain/layoutmain')
 
-@section('container')
+@section('dashboard')
+
+
+
+@endsection
