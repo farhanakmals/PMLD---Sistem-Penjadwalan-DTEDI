@@ -1,6 +1,5 @@
 body {
     font-family: 'Inter';
-    margin: 0;
 }
 
 ul.topnav {
@@ -56,6 +55,10 @@ ul.topnav li a.dosenright {
     padding-right: 25px;
 }
 
+.btndownload:hover {
+    background-color: #d78e28;
+}
+
 thead th {
     background-color: #007BFF  !important;
     color: #F9F9F9  !important;
@@ -67,4 +70,18 @@ tbody td {
 
 .textcolor {
     color: #444444;
+}
+
+.btnaksi {
+    font-size: small;
+}
+
+.btnedit {
+    background-color: #F4AB43;
+    color: #F9F9F9;
+}
+
+.btnhapus {
+    background-color: #E46050;
+    color: #F9F9F9;
 }

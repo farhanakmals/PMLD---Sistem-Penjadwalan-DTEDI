@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/aturjadwal', function () {
+    return view('aturjadwal');
+});
+
+Route::get('/kurikulum', function () {
+    return view('kurikulum');
+});
+

@@ -2,11 +2,11 @@
 
 @section('dashboard')
 
-<div class="container text-center">
-    <h1 class="text-center textcolor mt-4 fw-bold">JADWAL</h1>
+<div class="container-fluid text-center">
+    <h1 class="text-center textcolor mt-4 fw-bold">ATUR JADWAL</h1>
     <div class="row justify-content-between">
         <div class="col-md-2 d-flex rounded">
-            <a href="/dashboard" class="btn btndownload text-light" target="_blank">
+            <a href="/" class="btn btndownload text-light" target="_blank">
                 <i class="fa-solid fa-download me-2"></i>
                 <strong>Unduh Excel</strong>
             </a>
@@ -18,7 +18,7 @@
             </button>
         </div>
     </div>
-    <table class="table table-bordered align-middle text-center  mt-4 ">
+    <table class="table table-bordered align-middle text-center mt-4 ">
         <thead class="align-middle tablehead">
             <tr>
                 <th>SEM</th>
@@ -33,6 +33,7 @@
                 <th>KLS</th>
                 <th>SKS</th>
                 <th>ΣSKS</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>   
@@ -49,9 +50,17 @@
                 <td>2</td>
                 <td>2</td>
                 <td>4</td>
+                <td class="">
+                    <button type="button" class="btn btnaksi btnedit">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btnaksi btnhapus">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </td>
             </tr>
         </tbody>
     </table> 
 </div>
-    
+
 @endsection
