@@ -12,15 +12,12 @@ class DaftarDosen extends Model
     protected $table = 'daftar_dosen';
     
     protected $fillable = [
-        'Dosen_Team_Teaching',
-        'Jabatan_Akademik',
-        'kode_JA',
-        'NIDN_NIDK',
-        'Unit_Kerja',
-        'UNIT_KECIL'
+        'id',
+        'jabatan_akademik',
+        'nama_dosen',
+        'nidn_nidk',
+        'unit_kecil',
+        'unit_kerja'
     ];
 
-    public function kurikulum() {
-        return $this->belongsTo(Kurikulum::class, 'kurikulum_id', 'id');
-    }
 }

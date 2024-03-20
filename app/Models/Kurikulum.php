@@ -11,10 +11,10 @@ class kurikulum extends Model
 
     protected $table = 'kurikulum';
     protected $fillable = [
-        'prodi_kode_mk',
+        'id',
         'prodi',
         'kode_mk',
-        'mata_kuliah_ind',
+        'mata_kuliah_idn',
         'mata_kuliah_en',
         'sks',
         'kelompok',
@@ -23,9 +23,5 @@ class kurikulum extends Model
         'P/T',
         'afiliasi_lab',
     ];
-
-    public function DaftarDosen() {
-        return $this->hasMany(DaftarDosen::class, 'kurikulum_id', 'id');
-    }
     
 }
