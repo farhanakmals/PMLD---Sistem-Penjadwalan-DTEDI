@@ -3,7 +3,7 @@
 @section('dashboard')
 
 <div class="container text-center">
-    <h1 class="text-center textcolor mt-4 fw-bold">DAFTAR DOSEN</h1>
+    <h1 class="text-center textcolor my-4 fw-bold">DAFTAR DOSEN</h1>
     <div class="row justify-content-between">
         <div class="col-md-2 d-flex rounded">
             <a href="/" class="btn btndownload text-light" target="_blank">
@@ -11,11 +11,22 @@
                 <strong>Unduh Excel</strong>
             </a>
         </div>
-        <div class="col-md-3 d-flex">
-            <input type="search" class="form-control" placeholder="Nama Dosen">
-            <button class="btn btn-primary">
-                <i class="fas fa-search"></i>
-            </button>
+        <div class="col-6 row justify-content-end">
+            <div class="col-md-3 dropdown">
+                <button class="btn border dropdown-toggle form-control" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Filter Dosen</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 d-flex">
+                <input type="search" class="form-control" placeholder="Nama Dosen">
+                <button class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
         </div>
     </div>
     <table class="table table-bordered align-middle text-center mt-4 ">
