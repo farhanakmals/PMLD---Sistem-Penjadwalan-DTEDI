@@ -29,3 +29,7 @@ Route::get('/kurikulum', function () {
     return view('kurikulum');
 });
 
+Route::get('/daftardosen', function () {
+    return view('daftardosen');
+});
+

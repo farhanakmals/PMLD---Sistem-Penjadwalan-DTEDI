@@ -3,7 +3,7 @@
 @section('dashboard')
 
 <div class="container text-center">
-    <h1 class="text-center textcolor mt-4 fw-bold">KURIKULUM</h1>
+    <h1 class="text-center textcolor mt-4 fw-bold">DAFTAR DOSEN</h1>
     <div class="row justify-content-between">
         <div class="col-md-2 d-flex rounded">
             <a href="/" class="btn btndownload text-light" target="_blank">
@@ -12,7 +12,7 @@
             </a>
         </div>
         <div class="col-md-3 d-flex">
-            <input type="search" class="form-control" placeholder="Mata Kuliah">
+            <input type="search" class="form-control" placeholder="Nama Dosen">
             <button class="btn btn-primary">
                 <i class="fas fa-search"></i>
             </button>
@@ -21,24 +21,20 @@
     <table class="table table-bordered align-middle text-center mt-4 ">
         <thead class="align-middle tablehead">
             <tr>
-                <th>PRODI</th>
-                <th class="text-start">KODE MATA KULIAH</th>
-                <th>T / P</th>
-                <th>SKS</th>
-                <th class="text-start">MATA KULIAH</th>
-                <th>KELOMPOK</th>
-                <th>JENIS</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>TRPL</td>
-                <td class="text-start">SVIK214101</td>
-                <td>T</td>
-                <td>2</td>
-                <td class="text-start">Aljabar dan Vektor Matriks</td>
-                <td>MKK</td>
-                <td>Wajib</td>
+            <th class="text-start">NAMA DOSEN / TEAM TEACHIN</th>
+                        <th>JABATAN AKADEMIK</th>
+                        <th>KODE JA</th>
+                        <th>NIDN / NIDK / NUP</th>
+                        <th>UNIT KECIL</th>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr>
+                        <td class="text-start">Anny Kartika Sari, S. Si., M. Sc., Ph. D.</td>
+                        <td>Tenaga Pengajar</td>
+                        <td>3</td>
+                        <td>0005047703</td>
+                        <td>Sekolah Vokasi</td>
             </tr>
         </tbody>
     </table> 
