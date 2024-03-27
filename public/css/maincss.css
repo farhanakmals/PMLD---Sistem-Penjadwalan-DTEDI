@@ -13,6 +13,14 @@ ul.topnav {
 ul.topnav li {
     float: left;
 }
+
+ul.topnav li a {
+    display: block;
+    color: #444444;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
   
 ul.topnav li a.active {
     display: block;
@@ -21,7 +29,6 @@ ul.topnav li a.active {
     padding: 14px 25px;
     text-decoration: none;
     background-color: #007BFF;
-    border-color: #007BFF;
 }
 
 ul.topnav li.right {
@@ -83,5 +90,14 @@ tbody td {
 
 .btnhapus {
     background-color: #E46050;
+    color: #F9F9F9;
+}
+
+.tablebody {
+    vertical-align:top;
+}
+
+.btnfilter {
+    background-color: #007BFF;
     color: #F9F9F9;
 }

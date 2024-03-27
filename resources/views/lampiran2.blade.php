@@ -3,7 +3,7 @@
 @section('dashboard')
 
 <div class="container text-center">
-    <h1 class="text-center textcolor mt-4 fw-bold">KURIKULUM</h1>
+    <h1 class="text-center textcolor mt-4 fw-bold">LAMPIRAN 2</h1>
     <div class="row justify-content-between">
         <div class="col-md-2 d-flex rounded">
             <a href="/" class="btn btndownload text-light" target="_blank">
@@ -30,38 +30,40 @@
             </div>
         </div>
     </div>
-    <table class="table table-bordered align-middle text-center mt-4 ">
+    <table class="table table-bordered align-middle text-center  mt-4 ">
         <thead class="align-middle tablehead">
             <tr>
                 <th>NO</th>
-                <th>PRODI + MK</th>
-                <th>PRODI</th>
-                <th class="text-start">KODE MATA KULIAH</th>
-                <th class="text-start">MATA KULIAH ID</th>                
-                <th class="text-start">MATA KULIAH EN</th>
-                <th>SKS</th>
-                <th>KELOMPOK</th>
-                <th>JENIS</th>
-                <th>SEMESTER</th>
-                <th>T / P</th>
+                <th class="text-start">NAMA DOSEN</th>
+                <th class="text-start">UNIT KERJA / ASAL INSTITUSI</th>
+                <th class="text-start">MATA KULIAH / PRAKTIKUM</th>
+                <th>BEBAN SKS</th>
+                <th>ΣSKS</th>
+                <th>SKS LEBIH</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>2</td>
-                <td>TRPLSVIK214101</td>
-                <td>TRPL</td>
-                <td class="text-start">SVIK214101</td>
-                <td class="text-start">Aljabar dan Vektor Matriks</td>
-                <td class="text-start">Vector and Matrix Algebra</td>
-                <td>2</td>
-                <td>MKK</td>
-                <td>Wajib</td>
-                <td>2</td>
-                <td>T</td>
+        <tbody>   
+            <tr class="tablebody">
+                <td>1</td>
+                <td class="text-start">Anny Kartika Sari, S. Si., M. Sc., Ph. D.</td>
+                <td class="text-start">PT. Global Data Inspirasi</td>
+                <td class="text-start">Aljabar dan Vektor Matriks
+                    <br>Matematika Diskrit
+                    <br>Matematika Teknik
+                    <br>Statistika
+                    <br>Kalkulus
+                </td>
+                <td>2
+                    <br>2
+                    <br>2
+                    <br>2
+                    <br>2
+                </td>
+                <td>10</td>
+                <td>10</td>
             </tr>
         </tbody>
     </table> 
 </div>
-
+    
 @endsection

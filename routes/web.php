@@ -17,12 +17,16 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::get('/lampiran1', function () {
+    return view('lampiran1');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/aturjadwal', function () {
-    return view('aturjadwal');
+Route::get('/lampiran2', function () {
+    return view('lampiran2');
 });
 
 Route::get('/kurikulum', function () {

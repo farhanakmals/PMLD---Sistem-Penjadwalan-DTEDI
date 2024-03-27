@@ -24,10 +24,12 @@
                 <form class="d-flex col justify-content-center">
                     <div class="d-flex flex-row me-3">
                         <div class="rounded ugmacid">
-                            <button class="btn btnloginsso fw-bold" type="submit">
-                                    <i class="fa-solid fa-user me-2"></i>
-                                    <strong>Sign In - SSO UGM</strong>
-                            </button>
+                            <!-- <button class="btn btnloginsso fw-bold" type="submit"> -->
+                            <a class="btn btnloginsso" href="/lampiran1" role="button">
+                                <i class="fa-solid fa-user me-2"></i>
+                                <strong>Sign In - SSO UGM</strong>
+                            </a>
+                            <!-- </button> -->
                             <!-- <p class="py-2 px-3 fw-bold top-50 start-50 translate middle">@*.ugm.ac.id</p> -->
                         </div>
                     </div>

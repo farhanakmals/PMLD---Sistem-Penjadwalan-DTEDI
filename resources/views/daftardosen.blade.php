@@ -12,41 +12,46 @@
             </a>
         </div>
         <div class="col-6 row justify-content-end">
-            <div class="col-md-3 dropdown">
-                <button class="btn border dropdown-toggle form-control" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Filter Dosen</button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
             <div class="col-md-6 d-flex">
                 <input type="search" class="form-control" placeholder="Nama Dosen">
                 <button class="btn btn-primary">
                     <i class="fas fa-search"></i>
                 </button>
             </div>
+            <div class="col-md-3 dropdown">
+                <button class="btn border btnfilter form-control" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Filter Prodi</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">TRPL</a></li>
+                    <li><a class="dropdown-item" href="#">TRIK</a></li>
+                    <li><a class="dropdown-item" href="#">TRI</a></li>
+                    <li><a class="dropdown-item" href="#">TRE</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <table class="table table-bordered align-middle text-center mt-4 ">
         <thead class="align-middle tablehead">
             <tr>
-            <th class="text-start">NAMA DOSEN / TEAM TEACHIN</th>
-                        <th>JABATAN AKADEMIK</th>
-                        <th>KODE JA</th>
-                        <th>NIDN / NIDK / NUP</th>
-                        <th>UNIT KECIL</th>
-                    </tr>
-                </thead>
-                <tbody>   
-                    <tr>
-                        <td class="text-start">Anny Kartika Sari, S. Si., M. Sc., Ph. D.</td>
-                        <td>Tenaga Pengajar</td>
-                        <td>3</td>
-                        <td>0005047703</td>
-                        <td>Sekolah Vokasi</td>
+                <th>NO</th>
+                <th class="text-start">NAMA DOSEN / TEAM TEACHIN</th>
+                <th>JABATAN AKADEMIK</th>
+                <th>KODE JA</th>
+                <th>NIDN / NIDK / NUP</th>
+                <th>UNIT KERJA</th> 
+                <th>UNIT KECIL</th>
             </tr>
+        </thead>
+        <tbody>   
+            <tr>
+                <td>1</td>
+                <td class="text-start">Anny Kartika Sari, S. Si., M. Sc., Ph. D.</td>
+                <td>Tenaga Pengajar</td>
+                <td>3</td>
+                <td>0005047703</td>
+                <td>Sekolah Vokasi</td>
+                <td>DTEDI</td>
+    </tr>
         </tbody>
     </table> 
 </div>
